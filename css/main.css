@@ -1,1 +1,125 @@
 /* Place CSS styles here */
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    font-size: 75px;
+    text-shadow: 2px 2px 3px palevioletred;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px mediumvioletred;
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 2mm ridge palevioletred;
+}
+.buttons {
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1mm ridge gray;
+}
+.linx {
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1mm ridge gray;
+}
+.formz {
+    text-align: center;
+}
+button {
+    color: gray;
+}
+.prime {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: lightpink;
+    text-shadow: 2px 2px 3px black;
+    background-color: gray;
+    border: 5px outset mediumvioletred;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all .25s ease;
+}
+.prime:hover {
+    color: black;
+    text-shadow: 2px 2px 3px whitesmoke;
+    background-color: lightpink;
+  }
+.prime:focus {
+    box-shadow: 0 0 0 2px palevioletred;
+  }
+.sec {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: lightpink;
+    text-shadow: 2px 2px 3px black;
+    background-color: gray;
+    border: 5px outset mediumvioletred;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all .25s ease;
+}
+.sec:hover {
+    color: black;
+    text-shadow: 2px 2px 3px whitesmoke;
+    background-color: lightpink;
+}
+.sec:focus {
+    box-shadow: 0 0 0 2px palevioletred;
+}
+.err {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: lightpink;
+    text-shadow: 2px 2px 3px black;
+    background-color: gray;
+    border: 5px outset mediumvioletred;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all .25s ease;
+}
+.err:hover {
+    color: black;
+    text-shadow: 2px 2px 3px whitesmoke;
+    background-color: lightpink;
+}
+.err:focus {
+    box-shadow: 0 0 0 2px palevioletred;
+}
+.saiv {
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+}
+label {
+    font-family: 'DM Serif Text', serif;
+    font-size: 15px;
+    color: whitesmoke;
+}

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Pseudo Zen</title>
+  <title>Psuedo Zen</title>
   <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,6 +20,11 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -30,20 +35,20 @@
   <main>
     <div>
       <h2>Buttons</h2>
-      <div>
-        <button>Primary</button>
-        <button>Secondary</button>
-        <button>Error</button>
+      <div class="buttons">
+        <button class="prime">Primary</button>
+        <button class="sec">Secondary</button>
+        <button class="err">Error</button>
       </div>
     </div>
     <div>
       <h2>Links</h2>
-      <div>
+      <div class="linx">
         <a href="#">Primary link</a>
         <a href="#">Secondary link</a>
       </div>
     </div>
-    <div>
+    <div class="formz">
       <h2>Form elements</h2>
       <form action="#">
         <label for="name">Full Name:</label>
@@ -51,7 +56,7 @@
         <label for="comments">Comments:</label>
         <textarea id="comments" name="comments"></textarea>
 
-        <button>Save</button>
+        <span class="saiv"><button>Save</button></span>
       </form>
     </div>
   </main>
