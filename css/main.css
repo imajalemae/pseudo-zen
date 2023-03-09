@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 body {
-    background-color: black;
+    background-color: #000000;
 }
 h1 {
     color: white;
@@ -64,12 +64,15 @@ button {
 }
 .prime:hover {
     color: black;
-    text-shadow: 2px 2px 3px whitesmoke;
     background-color: lightpink;
   }
 .prime:focus {
     box-shadow: 0 0 0 2px palevioletred;
   }
+.prime:disabled {
+    color: plum;
+    background-color: black;
+}
 .sec {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -86,11 +89,14 @@ button {
 }
 .sec:hover {
     color: black;
-    text-shadow: 2px 2px 3px whitesmoke;
     background-color: lightpink;
 }
 .sec:focus {
     box-shadow: 0 0 0 2px palevioletred;
+}
+.sec:disabled {
+    color: plum;
+    background-color: black;
 }
 .err {
     padding-top: 10px;
@@ -108,7 +114,7 @@ button {
 }
 .err:hover {
     color: black;
-    text-shadow: 2px 2px 3px whitesmoke;
+    text-shadow: 2px 2px 3px palevioletred;
     background-color: lightpink;
 }
 .err:focus {
@@ -122,4 +128,33 @@ label {
     font-family: 'DM Serif Text', serif;
     font-size: 15px;
     color: whitesmoke;
+}
+input:focus {
+   background-color: lightpink;
+}
+input:hover {
+    color: mediumvioletred;
+}
+textarea:focus {
+    background-color: lightpink;
+}
+textarea:hover {
+    color: mediumvioletred;
+}
+input:disabled {
+    background-color: pink;
+}
+a:disabled {
+    color: mediumvioletred;
+    background-color: mediumvioletred;
+}
+a:visited {
+    color: magenta;
+    text-decoration-color: hotpink;
+}
+input:invalid {
+    border-color: red;
+  }
+textarea:required {
+    border: 5px outset pink;
 }

@@ -36,15 +36,15 @@
     <div>
       <h2>Buttons</h2>
       <div class="buttons">
-        <button class="prime">Primary</button>
-        <button class="sec">Secondary</button>
+        <button class="prime" disabled>Primary</button>
+        <button class="sec" disabled>Secondary</button>
         <button class="err">Error</button>
       </div>
     </div>
     <div>
       <h2>Links</h2>
       <div class="linx">
-        <a href="#">Primary link</a>
+        <a href="">Primary link</a>
         <a href="#">Secondary link</a>
       </div>
     </div>
@@ -52,10 +52,9 @@
       <h2>Form elements</h2>
       <form action="#">
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" />
+        <input type="text" id="name" name="name" disabled/>
         <label for="comments">Comments:</label>
-        <textarea id="comments" name="comments"></textarea>
-
+        <textarea id="comments" name="comments" required></textarea>
         <span class="saiv"><button>Save</button></span>
       </form>
     </div>
